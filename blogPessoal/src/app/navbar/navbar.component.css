@@ -1,4 +1,6 @@
-
+.nav{
+    background: linear-gradient(90deg, hsla(0, 68%, 54%, 1) 0%, hsla(142, 64%, 63%, 1) 100%);
+}
 .texto{
     font-size: 16pt;
     letter-spacing: .2rem;
