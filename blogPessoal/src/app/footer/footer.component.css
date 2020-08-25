@@ -1,0 +1,32 @@
+.footer{
+  background: linear-gradient(90deg, hsla(0, 68%, 54%, 1) 0%, hsla(142, 64%, 63%, 1) 100%);
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+  
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .faFacebook, .faLinkedin, .faInstagram{
+      color: white;
+  }
+  
+  .faFacebook:hover{
+    color: #3b5998;
+  }
+  
+  .faLinkedin:hover{
+  color: #0072b1;
+  }
+  
+  .faInstagram:hover{
+  color: #C13584;
+  }
