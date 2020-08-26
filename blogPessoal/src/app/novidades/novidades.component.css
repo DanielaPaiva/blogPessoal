@@ -1,0 +1,13 @@
+.jumbotron{
+    background: rgba(245, 222, 213, 0.63)
+}
+.btn{
+    background:transparent;
+    border-color: black;
+    
+}
+.btn:hover{
+    background-color: rgba(255, 68, 0, 0.829);
+    color: white;
+    border:none;
+}

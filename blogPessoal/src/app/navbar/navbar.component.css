@@ -1,7 +1,12 @@
 .nav{
-    background: linear-gradient(90deg, hsla(0, 68%, 54%, 1) 0%, hsla(142, 64%, 63%, 1) 100%);
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+}
+ul{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
 }
 .texto{
     font-size: 16pt;
     letter-spacing: .2rem;
 }
+
