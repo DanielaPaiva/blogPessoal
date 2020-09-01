@@ -1,3 +1,4 @@
 .bg{
-    background: linear-gradient(90deg, rgba(217, 58, 58, 0.432) 0%, rgba(100, 221, 144, 0.459) 100%);
+    border: 2px solid;
+    border-color: hsla(0, 65%, 51%, 0.596)
 }
