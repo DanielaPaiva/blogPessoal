@@ -1,3 +1,7 @@
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(54, 24, 24, 0.781);
+}
 .container{
     margin-top: 8%;
 }
@@ -11,7 +15,7 @@
 
 .email, .nome{
     border-radius: 50px;
-    background-color:#ef2c60cc;
+    background-color:#8a5e6a;
     color: white;
     border:none;
 }
@@ -20,7 +24,7 @@
 }
 .senha{
     border-radius: 50px;
-    background-color:#ef2c60cc;
+    background-color:#8a5e6a;
     color: white;
     border:none;
 }
@@ -31,7 +35,7 @@
 .cadastrar{
     border:none;
     border-radius: 50px;
-    background-color:#a3163bd3;
+    background-color:#8a5e6a;
     color: white;
     width: 100%;
     height:35px; 
