@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import {OrderModule} from 'ngx-order-pipe';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +16,7 @@ import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.componen
 import { NovidadesComponent } from './novidades/novidades.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { PostTemaComponent } from './post-tema/post-tema.component';
 
 @NgModule({
   declarations: [
@@ -26,14 +28,16 @@ import { CadastroComponent } from './cadastro/cadastro.component';
     PerfilLateralComponent,
     NovidadesComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    PostTemaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    OrderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
