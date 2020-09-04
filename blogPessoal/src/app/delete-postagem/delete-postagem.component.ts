@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Postagem } from '../model/Postagem';
 import { Router, ActivatedRoute } from '@angular/router';
 import { PostagemService } from '../service/postagem.service';
+import { AlertasService } from '../service/alertas.service';
 
 @Component({
   selector: 'app-delete-postagem',
@@ -14,7 +15,8 @@ postagem:Postagem=new Postagem()
   constructor(
     private postagemService:PostagemService,
     private router:Router,
-    private route:ActivatedRoute
+    private route:ActivatedRoute,
+    private alert:AlertasService,
   ) { }
 
   ngOnInit() {
@@ -30,7 +32,7 @@ postagem:Postagem=new Postagem()
  btnSim(){
 this.postagemService.deletePostagem(this.postagem.id).subscribe(()=>{
   this.router.navigate(['/feed'])
-  alert('Postagem apagada com sucesso!')
+  this.alert.showAlertSuccess('Postagem apagada com sucesso!')
 })
  }
 
