@@ -1,5 +1,5 @@
 # blogPessoal
 Blog com Angular
 
-![urbs](demo/blog.gif)
+![blog](demo/blog.gif)
 
